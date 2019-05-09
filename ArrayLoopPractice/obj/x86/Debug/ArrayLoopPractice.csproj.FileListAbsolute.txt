@@ -1,0 +1,6 @@
+/Users/davisgibson/Projects/ArrayLoopPractice/ArrayLoopPractice/bin/Debug/ArrayLoopPractice.exe
+/Users/davisgibson/Projects/ArrayLoopPractice/ArrayLoopPractice/bin/Debug/ArrayLoopPractice.pdb
+/Users/davisgibson/Projects/ArrayLoopPractice/ArrayLoopPractice/obj/x86/Debug/ArrayLoopPractice.csprojAssemblyReference.cache
+/Users/davisgibson/Projects/ArrayLoopPractice/ArrayLoopPractice/obj/x86/Debug/ArrayLoopPractice.csproj.CoreCompileInputs.cache
+/Users/davisgibson/Projects/ArrayLoopPractice/ArrayLoopPractice/obj/x86/Debug/ArrayLoopPractice.exe
+/Users/davisgibson/Projects/ArrayLoopPractice/ArrayLoopPractice/obj/x86/Debug/ArrayLoopPractice.pdb

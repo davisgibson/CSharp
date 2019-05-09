@@ -4,7 +4,7 @@ namespace CSwork
 {
     public class RockPaperScissors
     {
-        public static void Main(String[] args)
+        public static void main(String[] args)
         {
 
             Random random = new Random();
