@@ -9,7 +9,8 @@ namespace ArrayLoopPractice
         {
 
             Console.WriteLine("Which function would you like to run?");
-            Console.WriteLine("-change-");
+            Console.WriteLine("<change> get your change from a dollar amount");
+            Console.WriteLine("<tic> runs tic tac toe");
             String choice = Console.ReadLine();
             if(choice == "change")
             {
@@ -28,7 +29,22 @@ namespace ArrayLoopPractice
                 change.ForEach(Console.WriteLine);
 
             }
+            else if(choice == "tic")
+            {
+                bool playAgain = true;
+                while (playAgain)
+                {
+                    TicTacToe game = new TicTacToe();
+                    Console.WriteLine("Would you like to play again? (y/n)");
+                    String again = Console.ReadLine();
+                    if(again != "y")
+                    {
+                        playAgain = false;
+                    }
+                }
 
+
+            }
 
 
 
