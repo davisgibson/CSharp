@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace ArrayLoopPractice
 {
     public class TicTacToe
@@ -177,7 +178,7 @@ namespace ArrayLoopPractice
                 winner = "x";
             }
 
-            //check for a tie game(in this case, none of the above will return true, but the board will be full.
+            //check for a tie game(in this case, none of the above will return true, but the board will be full.)
             int playSum = 0;
             for(int i = 0; i < board.Length; i++)
             {
