@@ -4,38 +4,58 @@ namespace CSwork
 {
     class MainClass
     {
-        public static void main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Which function would you like to run?");
-            string func = Console.ReadLine();
-            if (func == "hello")
+            while (1 == 1)
             {
-                hello();
+                Console.WriteLine("Which function would you like to run?");
+                string func = Console.ReadLine();
+                if (func == "hello")
+                {
+                    hello();
+                }
+                else if (func == "add")
+                {
+                    addition();
+                }
+                else if (func == "catDog")
+                {
+                    catDog();
+                }
+                else if (func == "odd")
+                {
+                    oddEvent();
+                }
+                else if (func == "inches")
+                {
+                    inches();
+                }
+                else if (func == "echo")
+                {
+                    echo();
+                }
+                else if (func == "kg")
+                {
+                    kg();
+                }
+                else if (func == "guess")
+                {
+                    guess();
+                }
+                else if (func == "date")
+                {
+                    getDate();
+                }
+                else if (func == "age")
+                {
+                    age();
+                }
+                else
+                {
+                    break;
+                }
             }
-            else if (func == "add")
-            {
-                addition();
-            }
-            else if (func == "catDog")
-            {
-                catDog();
-            }
-            else if (func == "odd")
-            {
-                oddEvent();
-            }
-            else if (func == "inches")
-            {
-                inches();
-            }
-            else if (func == "echo")
-            {
-                echo();
-            }
-            else if (func == "kg")
-            {
-                kg();
-            }
+
         }
         public static void hello()
         {
@@ -146,6 +166,33 @@ namespace CSwork
             double kig = pounds * 0.453592;
             Console.WriteLine(pounds + " pounds = " + kig + "kg.");
         }
+        public static void guess()
+        {
+            Console.WriteLine("Make your guess: ");
+            String guess = Console.ReadLine();
+            if(guess == "csharp")
+            {
+                Console.WriteLine("Correct!");
+            }
+            else
+            {
+                Console.WriteLine("Wrong!");
+            }
 
+
+        }
+
+        public static void getDate()
+        {
+            DateTime today = DateTime.Today;
+            Console.WriteLine("Today is: " + today);
+        }
+        public static void age()
+        {
+            Console.WriteLine("What year were you born?");
+
+            int year = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("You are " +(DateTime.Today.Year - year) + "years old");
+        }
     }
 }
