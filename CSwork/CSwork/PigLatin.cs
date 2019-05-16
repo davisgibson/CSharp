@@ -27,7 +27,7 @@ namespace CSwork
             String vowels = "aeiouAEIOU";
             String consonants = "bcdfghjklmnpqrstvxzBCDFGHJKLMNPQRSTVXZ";
             Char[] vows = { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };
-
+            Console.WriteLine(word.IndexOfAny(vows));
             if (vowels.Contains(firstChar) && vowels.Contains(lastChar))
             {
                 word = word + "yay";

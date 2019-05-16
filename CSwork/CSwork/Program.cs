@@ -104,6 +104,10 @@ namespace CSwork
             {
                 Console.WriteLine("Meow!");
             }
+
+
+
+                
         }
         public static void oddEvent()
         {
@@ -187,6 +191,7 @@ namespace CSwork
             DateTime today = DateTime.Today;
             Console.WriteLine("Today is: " + today);
         }
+
         public static void age()
         {
             Console.WriteLine("What year were you born?");
