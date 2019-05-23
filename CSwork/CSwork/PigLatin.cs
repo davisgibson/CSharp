@@ -3,7 +3,7 @@ namespace CSwork
 {
     public class PigLatin
     {
-        public static void main(String[] args)
+        public static void Main(String[] args)
         {
             Console.WriteLine("Welcome to pig latin!");
             bool x = true;
