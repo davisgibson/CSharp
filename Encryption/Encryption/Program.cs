@@ -45,17 +45,17 @@ namespace Encryption
             string ret = "";
             string alph = "abcdefghijklmnopqrstuvwxyz ";
             Char[] chars = p.ToCharArray();
-            Console.WriteLine("L: " + chars.Length);
+
             for(int i = 0; i < chars.Length; i++)
             {
                 int index = alph.IndexOf(chars[i]);
-                Console.WriteLine("bf " + index);
+
                 index = index + offset;
                 if (index >= alph.Length)
                 {
                     index = index - alph.Length;
                 }
-                Console.WriteLine("af " + index);
+
                 string add = alph.Substring(index, 1);
                 ret = ret + add;
             }
@@ -66,17 +66,17 @@ namespace Encryption
             string ret = "";
             string alph = "abcdefghijklmnopqrstuvwxyz ";
             Char[] chars = p.ToCharArray();
-            Console.WriteLine("L: " + chars.Length);
+
             for (int i = 0; i < chars.Length; i++)
             {
                 int index = alph.IndexOf(chars[i]);
-                Console.WriteLine("bf " + index);
+
                 index = index - offset;
                 if (index < 0)
                 {
                     index = index + alph.Length;
                 }
-                Console.WriteLine("af " + index);
+
                 string add = alph.Substring(index, 1);
                 ret = ret + add;
             }

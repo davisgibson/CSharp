@@ -4,7 +4,7 @@ namespace CSwork
 {
     class MainClass
     {
-        public static void main(string[] args)
+        public static void Main(string[] args)
         {
             while (1 == 1)
             {
