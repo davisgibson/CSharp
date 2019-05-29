@@ -6,7 +6,7 @@ namespace Hangman
     class MainClass
     {
 
-        static List<String> guessed = new List<String>();
+        static List<char> guessed = new List<char>();
         static List<char> secret;
         static string word;
         static int lives;
@@ -28,22 +28,10 @@ namespace Hangman
                 }
             }
         }
-        public static string convertToSecret()
+        public static void convertToSecret()
         {
-            secret = "";
-            string ret = "";
-            for(int i = 0; i < word.Length; i++)
-            {
-                if (word[i] == ' ')
-                {
-                    secret += " ";
-                }
-                else
-                {
-                    secret += "_";
-                }
-            }
-            return ret;
+
+
         }
         public static void printGame()
         {

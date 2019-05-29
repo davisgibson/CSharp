@@ -13,7 +13,7 @@ namespace TowersOfHanoi
             Console.WriteLine("Welcome to Towers of Hanoi!");
             board.Add("a", new Stack<int>()); 
             board.Add("b", new Stack<int>());
-            board.Add("c", new Stack<int>());
+            board.Add("c", new Stack<int> { });
             Console.WriteLine("How many tiles do you want to move? (usually 3-5)");
             tiles = 3;
             try
